@@ -2,7 +2,7 @@ module.exports = function() {
   return {
     basePath: '../',
     frameworks: ['jasmine'],
-    reporters: ['progress'],
+    reporters: ['spec'],
     // browsers: ['Chrome'],
     browsers: ['PhantomJS'],
     autoWatch: false,
